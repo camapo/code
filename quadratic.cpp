@@ -1,3 +1,4 @@
+//simple C++ program showcasing quadratic formula
 #include <iostream>
 #include <cmath>
 
