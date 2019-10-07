@@ -1,3 +1,14 @@
+
+/*Directed Independent Study: Smart Lock-and-Key LED Motion System Using MSP430 Microcontroller and GY-61 ADXL335 Accelerometer
+•	Assembled and programmed circuit in which MSP430G2553 mixed-signal microcontroller received multi-directional input from 3-axis analog output accelerometer
+•	Circuit records passcodes of up to three movements along negative and positive X-axis and/or Y-axis; Z-axis is used to save and enter said passcodes
+    1.	Movements along axes indicated by different colored LEDs (X-axis: Blue, Y-axis: Green, Z-axis: Yellow)
+    2.	Learning mode is activated via photosensor (Blue “Learn” LED turns on)
+    3.	Passcode of choice is entered and saved by accelerating circuit along Z-axis (Yellow LEDs flash, Learn LED turns off)
+    4.	User records passcode of up to three movements by accelerating circuit along X or Y-axes, then enters passcode by accelerating circuit along Z-axis (Yellow LEDs flash)
+•	Circuit “unlocks” (Green LED flashes) if entered passcode equals saved passcode, remains “locked” (Red LED flashes) if entered passcode does not equal saved passcode
+•	Circuit programmed entirely in C using Code Composer Studio
+•   Study supervised by Dr. Bassem Alhalabi during Summer 2019 semester at Florida Atlantic University*/
 //***********************************************************************
 //******** Name: Carlos Mateo
 //******** Course: COT6900 - Directed Independent Study - Embedded Systems
