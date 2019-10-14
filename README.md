@@ -1,2 +1,2 @@
-# Code Library
-Example code demonstrating knowledge of various programming languages.
+# Camapo's Code Library
+Short, sample computer programs of various programming languages.
